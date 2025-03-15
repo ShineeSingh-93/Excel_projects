@@ -151,13 +151,12 @@ It includes detailed information on:
 - To customize the chart, I added a title axis title, removed the lines (skill likelihood), and changed the markers to diamonds.
 
 ### 📊 Analysis
-
+![skill salary chart](resources/images/skill_salary_chart.png)
 #### 💡Insights
 
 - 💰 Higher median salaries are associated with skills like Python, Oracle, and SQL, suggesting their critical role in high-paying tech jobs.
 - 📉 Skills like PowerPoint and Word have the lowest median salaries and likelihood, indicating less specialization and demand in high-salary sectors.
-- This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
-## add picture here  
+- This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.  
 
 ## Conclusion
 
