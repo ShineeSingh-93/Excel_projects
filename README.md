@@ -24,10 +24,10 @@ The dataset used for this project contains real-world data science job informati
 
 #### 📊 Data Science Job Salaries - Bar Chart 
 ![job bar chart](resources/images/job_salary_bar_chart.png) ![job type bar chart](resources/images/job_schedule_type_bar_chart.png)
-- 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
-- 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
+- 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity and salary based on job type.
+- 🎨 **Design Choice:** Two Horizontal bar chart for visual comparison of median salaries and salary based on job type.
 - 📉 **Data Organization:** Sorted job titles by descending salary for improved readability.
-- 💡 **Insights Gained:** This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
+- 💡 **Insights Gained:** This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles and for particular job type.
 
 #### 🗺️ Country Median Salaries - Map Chart  
 ![country map chart](resources/images/job_related_country_map_chart.png)  
@@ -88,13 +88,13 @@ It includes detailed information on:
 
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
 ### 📊 Analysis
+![high skill high pay](resources/images/skill_vs_salary_chart.png)  
 
 #### 💡 Insights
 
 - 📈 There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Senior Data Engineer and Data Scientist.
 - 💼 Roles that require fewer skills, like Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
-- This trend emphasizes the value of acquiring multiple relevant skills, particularly for individuals aiming for higher-paying roles.
-## add picture here  
+- This trend emphasizes the value of acquiring multiple relevant skills, particularly for individuals aiming for higher-paying roles.   
 
 ## 2️⃣ What’s the salary for data jobs in different regions?
 
@@ -160,4 +160,4 @@ It includes detailed information on:
 
 ## Conclusion
 
-As a data enthusiast and former job seeker, I embarked on this Excel-based project to uncover valuable insights about the data science job market. Using a dataset I've curated from real-world job postings, I analyzed job titles, salaries, locations, and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX, and charts, I discovered key correlations between multiple skills and higher salaries, particularly in Python, SQL, and cloud technologies. 
+As a data enthusiast and job seeker, I embarked on this Excel-based project to uncover valuable insights about the data science job market. Using a dataset from Luke Barousse excel learning, I analyzed job titles, salaries, locations, and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX, and charts, I discovered key correlations between multiple skills and higher salaries, particularly in Python, SQL, and cloud technologies. 
