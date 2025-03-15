@@ -12,7 +12,7 @@ The following Excel skills were utilized for analysis:
 
 ### Data Jobs Dataset
 
-The dataset used for this project contains real-world data science job information from 2023. The dataset is available via my Excel course, which provides a foundation for analyzing data using Excel. It includes detailed information on:
+The dataset used for this project contains real-world data science job information from 2023. The dataset is available via my resource folder, which provides a foundation for analyzing data using Excel. It includes detailed information on:
 
 - **👨‍💼 Job titles**
 - **💰 Salaries**
@@ -38,7 +38,7 @@ The dataset used for this project contains real-world data science job informati
 - 💡 **Insights Gained:** Enables quick grasp of global salary disparities and highlights high/low salary regions.
 ## Conclusion
 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries. 
+I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my resource folder, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries. 
 
 
 
@@ -62,7 +62,7 @@ The following Excel skills were utilized for analysis:
 
 ### Data Jobs Dataset
 
-The dataset used for this project contains real-world data science job information from 2023. The dataset is available via my Excel course, which provides a foundation for analyzing data using Excel. 
+The dataset used for this project contains real-world data science job information from 2023. The dataset is available via my resource folder, which provides a foundation for analyzing data using Excel. 
 
 It includes detailed information on:
 
@@ -77,7 +77,7 @@ It includes detailed information on:
 
 #### 📥 Extract
 
-- I first used Power Query to extract the original data (`data_salary_all.xlsx`) and create two queries:
+- I first used Power Query to extract the original data (`data_salary_salary.xlsx`) and create two queries:
     - 🗃️ First one with all the data jobs information.
     - 🔧 The second listing the skills for each job ID.
 
@@ -121,7 +121,7 @@ It includes detailed information on:
 
 #### 💪 Power Pivot
 
-- 🔗 I created a data model by integrating the `data_jobs_all` and `data_jobs_skills` tables into one model.
+- 🔗 I created a data model by integrating the `data_jobs_salary` and `data_jobs_skills` tables into one model.
 - 🧹 Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
 
 #### 🔗 Data Model
@@ -131,14 +131,14 @@ It includes detailed information on:
 
 - The Power Pivot menu was used to refine my data model and makes it easy to create measures.
 ### 📊Analysis
+![skill related to jobs](resources/images/top_skills_related_to_job.png)  
 
 #### 💡Insights
 
 - 💻 SQL and Python dominate as top skills in data-related jobs, reflecting their foundational role in data processing and analysis.
 - ☁️ Emerging technologies like AWS and Azure also show significant presence, underlining the industry's shift towards cloud services and big data technologies.
-- Understanding prevalent skills in the industry not only helps professionals stay competitive but also guides training and educational programs to focus on the most impactful technologies.
-## add picture here  
-
+- Understanding prevalent skills based on title and country filteration. For filteration slicers are created.   
+  
 ## 4️⃣ What’s the pay of the top 10 skills?
 
 ### 📊 Skill: Advanced Charts (Pivot Chart)
