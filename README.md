@@ -145,18 +145,18 @@ It includes detailed information on:
 
 #### 📈 PivotChart
 
-- I created a combo PivotChart to plot median salary and skill likelihood (%) from my PivotTable.
+- I created a combo PivotChart to plot median salary and skill count from my PivotTable.
     - 🪙 **Primary Axis:** Median Salary (as a Clustered Column)
-    - 👍 **Secondary Axis:** Skill Likelihood (as a Line with Markers)
-- To customize the chart, I added a title axis title, removed the lines (skill likelihood), and changed the markers to diamonds.
+    - 👍 **Secondary Axis:** Skill count (as a Line with Markers)
+- To filter the chart based on job and country, I added the slicers for job title and country using pivottableAnalyze
 
 ### 📊 Analysis
 ![skill salary chart](resources/images/skill_salary_chart.png)
 #### 💡Insights
 
 - 💰 Higher median salaries are associated with skills like Python, Oracle, and SQL, suggesting their critical role in high-paying tech jobs.
-- 📉 Skills like PowerPoint and Word have the lowest median salaries and likelihood, indicating less specialization and demand in high-salary sectors.
-- This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.  
+- 📉 Skills like PowerPoint and Word have the lowest median salaries and skill count, indicating less specialization and demand in high-salary sectors.
+- This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles.  
 
 ## Conclusion
 
