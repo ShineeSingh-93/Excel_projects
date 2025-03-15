@@ -1,7 +1,7 @@
 # My Excel Project on data job
 
 ## Salary Dashboard  
-## add picture here
+![salary dashboard final](resources/images/data_job_salary_dashboard_pic.png)  
 ### Excel Skills Used
 
 The following Excel skills were utilized for analysis:
